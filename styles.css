@@ -45,6 +45,10 @@ h3 {
     margin-top: 2rem;
     cursor: pointer;
 }
+.book:hover{
+    transform: scale(1.1);
+    transition: 0.5s all linear;
+}
 /* ONE STYLES START*/
 .one {
     display: flex;
