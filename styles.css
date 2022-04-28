@@ -7,7 +7,7 @@
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 62px;
 }
 
 h2 {
@@ -34,6 +34,14 @@ h3 {
 .body-2 {
     font-size: 16px;
 }
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin: 0 1rem;
+    cursor: pointer;
+}
 .book {
     background: #FF6433;
     border-radius: 12px;
@@ -45,10 +53,97 @@ h3 {
     margin-top: 2rem;
     cursor: pointer;
 }
-.book:hover{
-    transform: scale(1.1);
-    transition: 0.5s all linear;
+/* NAVBAR STYLES START */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-item {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+#assistance {
+    border-left: 2px solid grey;
+    padding-left: 1.5rem;
+
+}
+
+/* NAVBAR STYLES END */
+section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+/* HEADER STYLES START*/
+.header {
+    height: 90vh;
+    display: flex;
+    width: 100%;
+}
+
+.header-text {
+    width: 50%;
+    margin: 5rem 0.5rem 0 0;
+    font-weight: bold;
+
+}
+.header-text h1{
+}
+.header-text p {
+    font-size: 3.5rem;
+
+}
+
+
+.hours {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.hours p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0.7rem;
+}
+
+.hours span {
+    color: rgba(147, 145, 145, 1);
+    ;
+}
+.image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    height: 100%;
+}
+
+
+
+
+/* HEADER STYLES END */
 /* ONE STYLES START*/
 .one {
     display: flex;
@@ -324,6 +419,7 @@ h3 {
     width: 100%;
     display: flex;
     background: #FAFAFA;
+    padding-bottom: 4rem;
 }
 .five h3{
     margin-top: 4rem;
@@ -336,9 +432,198 @@ h3 {
 .content .brands{
     width: 100%;
     height: 70%;
-    margin-top: 3rem;
 }
 .brands img{
     width: 100%;
 }
 /* FIVE STYLES END */
+/* SIX STYLES START*/
+.six{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgba(242, 242, 242, 1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+
+}
+.six .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.six h3{
+    padding:  0 5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+.six .cards{
+    height: 50vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.cards .card{
+    height: 90%;
+    width: 50%;
+    margin: 0 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(172, 172, 172, 0.29);
+    box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+.card .top{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.card .bottom{
+    text-align: start;
+}
+.indicators{
+    width: 80%;
+    height: 6vh;
+    display: flex;
+}
+.indicators .slider{
+    width: 60%;
+    height: 100%;
+    padding-left: 25rem;
+}
+
+.indicators .arrows{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.indicators .arrows img{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+/* SIX STYLES END */
+/* SEVEN STYLES START */
+.seven{
+    height: 100vh;
+    width: 100%;
+    background: #E2E6E9;
+    display: flex;
+    align-items: center;
+}
+.faq{
+    width: 60%;
+    height: 90vh;
+    margin: 0 auto;
+}
+.faq h3{
+    color: #1E1B1B;
+    text-align: center;
+}
+.faq .questions{
+    height: 95%;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.questions .question{
+    width: 100%;
+    padding: 1rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    align-items: center;
+    margin: 0.5rem 0;
+
+}
+.questions .show-text{
+    flex-wrap: wrap;
+    height: 130px;
+    padding-bottom: 4rem;
+}
+.show-text .answer{
+    padding-right: 12rem;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: 80%;
+    background-color: #FF6433;
+}
+/* SEVEN STYLES END */
+/* FOOTER STYLES START*/
+footer{
+    height: 70vh;
+    width: 100%;
+}
+footer .top{
+    height: 90%;
+    background: #1E1B1B;
+    opacity: 0.98;
+    padding-top: 3rem;
+}
+footer .top .content{
+    width: 80%;
+    height: 100%;
+    margin: 3rem auto;
+    display: flex;
+    color: #FFFFFF;
+}
+.content .left,.right{
+    width: 50%;
+    height: 100%;
+}
+.content h3{
+    padding:5% 10%;
+}
+.content .icons{
+    padding-left: 10%;
+}
+.content img{
+    margin: 0 0.7rem;
+    cursor: pointer;
+}
+.right{
+    padding-top: 1rem;
+}
+.right .info{
+    margin: 1.3rem 1rem;
+}
+.info .body-1{
+    opacity: 0.6;
+    margin-bottom: .5rem;
+}
+.info .title-2{
+    color: #FFFFFF;
+}
+footer .bottom{
+    height: 20%;
+    background: #1E1B1B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer li{
+    color: #FFFFFF;
+    font-size: 16px;
+    transition: transform 0.3s linear;
+}
+footer li:hover{
+    transform: scale(1.1);
+}
+/* FOOTER STYLES END */
